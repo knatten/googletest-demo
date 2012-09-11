@@ -3,7 +3,17 @@
 class Person
 {
 public:
-	Person()
+	Person() : terrorist(false)
 	{
 	}
+	void markAsTerrorist()
+	{
+		terrorist = true;
+	}
+	bool isTerrorist() const
+	{
+		return terrorist;
+	}
+private:
+	bool terrorist;
 };
