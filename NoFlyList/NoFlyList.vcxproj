@@ -64,6 +64,7 @@
   <ItemGroup>
     <ClInclude Include="NoFlyPolicy.h" />
     <ClInclude Include="Person.h" />
+    <ClInclude Include="Twitter.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="NoFlyPolicy.cpp" />
