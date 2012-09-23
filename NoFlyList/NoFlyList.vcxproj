@@ -62,6 +62,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Destination.h" />
     <ClInclude Include="NoFlyPolicy.h" />
     <ClInclude Include="Person.h" />
     <ClInclude Include="Twitter.h" />
