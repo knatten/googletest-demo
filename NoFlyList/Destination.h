@@ -10,3 +10,5 @@ struct Destination
 
 	bool operator==(const Destination& rhs) const { return name == rhs.name; }
 };
+
+std::ostream& operator<<(std::ostream& os, const Destination& d);
