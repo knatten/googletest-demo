@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual C++ Express 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NoFlyList", "NoFlyList\NoFlyList.vcxproj", "{B63255C1-7872-46D0-BFB0-5D388BC95690}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NoFlyListTest", "NoFlyListTest\NoFlyListTest.vcxproj", "{48473AB1-3554-42DD-A618-5F846682A171}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B63255C1-7872-46D0-BFB0-5D388BC95690} = {B63255C1-7872-46D0-BFB0-5D388BC95690}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -13,6 +18,10 @@ Global
 		{B63255C1-7872-46D0-BFB0-5D388BC95690}.Debug|Win32.Build.0 = Debug|Win32
 		{B63255C1-7872-46D0-BFB0-5D388BC95690}.Release|Win32.ActiveCfg = Release|Win32
 		{B63255C1-7872-46D0-BFB0-5D388BC95690}.Release|Win32.Build.0 = Release|Win32
+		{48473AB1-3554-42DD-A618-5F846682A171}.Debug|Win32.ActiveCfg = Debug|Win32
+		{48473AB1-3554-42DD-A618-5F846682A171}.Debug|Win32.Build.0 = Debug|Win32
+		{48473AB1-3554-42DD-A618-5F846682A171}.Release|Win32.ActiveCfg = Release|Win32
+		{48473AB1-3554-42DD-A618-5F846682A171}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
