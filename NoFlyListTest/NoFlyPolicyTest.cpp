@@ -90,6 +90,6 @@ TEST_F(NoFlyPolicyTest, terroristsGoToABadPlace2)
 TEST_F(NoFlyPolicyTest, terroristsGoToGitmo)
 {
 	Destination d = policy.terroristDestination();
-	Destination gitmo("Guantanamo", 1);
+	Destination gitmo("Guantanamo", 0);
 	ASSERT_EQ(gitmo, d);
 }

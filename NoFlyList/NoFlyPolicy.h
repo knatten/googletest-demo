@@ -6,6 +6,6 @@ class NoFlyPolicy
 {
 public:
 	bool canFly(const Person& person);
-	Destination terroristDestination() { return Destination("Guantanamo", 1); }
+	Destination terroristDestination() { return Destination("Guantanamo", 0); }
 };
 
