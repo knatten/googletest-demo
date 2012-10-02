@@ -1,0 +1,10 @@
+This is the code I ended up with in my demo of GoogleTest for Kjeller Software Community and Oslo C++ Users Group.
+
+You can visit those groups at http://www.meetup.com/Kjeller-Software-Community/ and http://www.meetup.com/c-56/ .
+
+The imaginary task we solved was to create a no-fly list for the new American president Mitt Romney. His criteria for being grounded ended up being:
+-If you are a terrorist
+-If you are a French liberal
+-If you have ever tweeted about bombs, Osama or Obama
+
+The best part is that there turned out to be a French liberal in the audience, who decided to fork the project to allow himself to fly. Check out Cyrille Verrier's fork at https://github.com/cyrillev/googletest-demo
